@@ -23,6 +23,7 @@ LOCAL_MODULE := vendor.qti.hardware.fm@1.0
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES_64 := proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so
 LOCAL_SRC_FILES_32 := proprietary/product/lib/vendor.qti.hardware.fm@1.0.so
+LOCAL_SHARED_LIBRARIES := libc++ libc libcutils libdl libhidlbase libhidltransport libhwbinder liblog libm libutils
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
